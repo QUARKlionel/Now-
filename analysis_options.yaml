@@ -1,0 +1,11 @@
+linter:
+  rules:
+    avoid_print: false
+    unnecessary_import: false
+    constant_identifier_names: false
+    always_put_control_body_on_new_line: false
+analyzer:
+  errors:
+    unnecessary_import: ignore
+    constant_identifier_names: ignore
+    curly_braces_in_flow_control_structures: ignore
